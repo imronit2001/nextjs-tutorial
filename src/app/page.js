@@ -1,10 +1,10 @@
+import LearnLink from "@/components/LearnLink";
+
 export default function Home() {
   return (
     <>
       <div class="container mx-auto">
-        <h1 class="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+          <LearnLink />
       </div>
     </>
   );
